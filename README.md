@@ -176,12 +176,12 @@ This creates a continuous prediction → verification → learning loop.
 This is much better for GitHub because it removes repeated explanations and keeps each feature to **2–4 lines**, while still showing your **AI + GIS + IoT + LoRa + lead-time + warning + field feedback** pipeline.
 
 TeamMember	                 Responsibility
-Ahmad Anas P S	  Team Lead, AI/ML & System Architecture
-Charumithra C	         GIS & Geospatial Intelligence
-Inbavel R G	         IoT & Embedded Systems
-Abinayaa V	         Frontend, Mobile & UI/UX
-Clement Caleb C        Backend, Database & Cloud
-Mohammed Ihsaan	  Data, Testing, Validation & Documentation
+Ahmad Anas P S  - Team Lead, AI/ML & System Architecture
+Charumithra C	  - GIS & Geospatial Intelligence
+Inbavel R G	  - IoT & Embedded Systems
+Abinayaa V	  - Frontend, Mobile & UI/UX
+Clement Caleb C - Backend, Database & Cloud
+Mohammed Ihsaan - Data, Testing, Validation & Documentation
 
 🌐 Project Links : 
 🌍 Website - https://flashflood-alert-ai.vercel.app/
