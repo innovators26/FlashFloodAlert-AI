@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1,roc_auc,samples,positive_samples,confusion_matrix
+XGBoost_Flood_5Fold_OOF,0.99,0.0,0.0,0.0,0.6351515151515151,1000,10,"[[990, 0], [10, 0]]"
+RandomForest_Landslide_5Fold_OOF,0.99,0.0,0.0,0.0,0.676060606060606,1000,10,"[[990, 0], [10, 0]]"
+Flash_Flood_Early_ML_5Fold_Fusion,0.593,0.03597122302158273,0.75,0.06864988558352403,0.7174489795918367,1000,20,"[[578, 402], [5, 15]]"

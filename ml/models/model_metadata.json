@@ -1,0 +1,49 @@
+{
+  "algorithm_name": "Flash Flood Early ML",
+  "state": "Uttarakhand",
+  "base_models": {
+    "flood": "XGBoost",
+    "landslide": "Random Forest"
+  },
+  "fusion_model": "Logistic Regression with cascade interaction features",
+  "features": [
+    "rainfall",
+    "soil_moisture",
+    "slope",
+    "elevation",
+    "flow_accumulation",
+    "ground_tilt",
+    "forecast_rainfall",
+    "historical_flood_risk",
+    "historical_landslide_risk",
+    "rainfall_24h",
+    "rainfall_3d_cum",
+    "rainfall_7d_cum",
+    "rainfall_14d_cum",
+    "rainfall_30d_cum",
+    "rainfall_3d_max",
+    "rainfall_7d_max",
+    "soil_saturation_proxy",
+    "API",
+    "API_7d",
+    "API_14d",
+    "rainfall_intensity_on_wet"
+  ],
+  "fusion_features": [
+    "flood_probability",
+    "landslide_probability",
+    "cascade_interaction",
+    "flood_soil_interaction",
+    "landslide_soil_interaction",
+    "rainfall",
+    "soil_moisture",
+    "slope",
+    "rainfall_24h",
+    "rainfall_3d_cum",
+    "rainfall_7d_cum",
+    "soil_saturation_proxy",
+    "ground_tilt"
+  ],
+  "validation": "5-fold stratified out-of-fold stacking",
+  "random_state": 42
+}

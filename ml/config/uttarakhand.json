@@ -1,0 +1,19 @@
+{
+  "state": "Uttarakhand",
+  "districts": {
+    "Rudraprayag": [
+      "Gaurikund",
+      "Rambara",
+      "Kalimath",
+      "Semi",
+      "Chandrapuri",
+      "Agastmuni"
+    ],
+    "Chamoli": [
+      "Tapovan",
+      "Lata",
+      "Pipalkoti",
+      "Nautha"
+    ]
+  }
+}
