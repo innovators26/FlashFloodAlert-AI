@@ -1,4 +1,4 @@
-# 🌧️ FlashFlood Alert AI
+# FlashFlood Alert AI
 
 ### Hyper-Local Multi-Hazard Early Warning & Decision-Support System
 
@@ -12,18 +12,18 @@
 
 It combines:
 
-- 🌧️ Weather & rainfall data
-- 📡 Real-time IoT sensors
-- 🛰️ Satellite & DEM data
-- 🗺️ GIS & terrain information
-- 📚 Historical disaster data
-- 🤖 Machine Learning
-- 📍 Hyper-local risk mapping
-- ⏱️ Lead-time estimation
-- 📶 LoRa-based offline alerts
-- 🚨 Local sirens/buzzers
-- 📱 Web & mobile applications
-- 📸 Field verification
+- Weather & rainfall data
+- Real-time IoT sensors
+- Satellite & DEM data
+- GIS & terrain information
+- Historical disaster data
+- Machine Learning
+- Hyper-local risk mapping
+- Lead-time estimation
+- LoRa-based offline alerts
+- Local sirens/buzzers
+- Web & mobile applications
+- Field verification
 
 The system converts raw environmental data into:
 
@@ -31,7 +31,7 @@ The system converts raw environmental data into:
 
 ---
 
-## 🎯 Problem
+## Problem
 
 Hilly regions can experience sudden flash floods and landslides due to:
 
@@ -51,7 +51,7 @@ WHERE is the danger?
 WHEN could it reach the area?
 WHY is the risk increasing?
 WHAT action should be prepared?
-## 💡 Proposed Solution
+## Proposed Solution
 
 FlashFlood Alert AI follows:
 
@@ -62,12 +62,12 @@ SENSE → UNDERSTAND → PREDICT → FUSE → MAP
 It converts:
 
 DATA → RISK → IMPACT → LEAD TIME → ACTION → ALERT → FEEDBACK
-🚀 Key Features
-🌧️ 1. Multi-Source Data Fusion
+Key Features :
+1. Multi-Source Data Fusion
 
 Combines weather, rainfall, historical events, satellite/DEM, GIS and real-time IoT data for a broader risk assessment.
 
-🤖 2. AI-Based Multi-Hazard Prediction
+2. AI-Based Multi-Hazard Prediction
 XGBoost → Flash Flood Risk
 Random Forest → Landslide Risk
 Logistic Regression → Multi-Hazard Risk Fusion
@@ -83,16 +83,16 @@ Flood      Landslide
 Logistic Regression
        ↓
 Multi-Hazard Risk
-🗺️ 3. GIS & Terrain Intelligence
+3. GIS & Terrain Intelligence
 
 Uses elevation, slope, flow direction, flow accumulation, drainage, catchments, land cover and village/ward boundaries to create localized risk information.
 
-🌊 4. Catchment-Aware Analysis
+4. Catchment-Aware Analysis
 
 Tracks how upstream conditions can influence downstream areas.
 
 UPSTREAM → RAINFALL → FLOW PATH → DOWNSTREAM → IMPACT
-⏱️ 5. Lead-Time Estimation
+5. Lead-Time Estimation
 
 Estimates potential hazard travel time using distance and propagation speed:
 
@@ -100,7 +100,7 @@ T = D / V
 
 The system can provide an estimated time interval when uncertainty is high.
 
-🚨 6. Level-Based Warning
+6. Level-Based Warning
 Level	Action
 🟢 LOW	Monitor
 🟡 MODERATE	Prepare
@@ -109,14 +109,14 @@ Level	Action
 
 Warning decisions consider AI risk, sensor evidence, terrain, environmental conditions, confidence, impact and response window.
 
-📊 7. Risk + Confidence
+7. Risk + Confidence
 
 Risk and confidence are kept separate.
 
 Risk: 90%
 Confidence: Moderate
 Reason: Upstream sensor unavailable
-🔍 8. Explainable AI
+8. Explainable AI
 
 Shows the main factors contributing to risk, such as:
 
@@ -124,7 +124,7 @@ Rainfall • Soil Moisture • Slope • Elevation • Flow Accumulation • His
 
 SHAP can be used for model explanations.
 
-📡 9. Real-Time IoT Monitoring
+9. Real-Time IoT Monitoring
 
 Prototype uses:
 
@@ -134,7 +134,7 @@ Sensors → ESP32 → MicroSD / LoRa → Gateway → Backend
 
 The prototype rain sensor is used for rain-presence sensing. Calibrated rainfall instruments are required for operational quantitative measurements.
 
-📶 10. Offline-First Alerting
+10. Offline-First Alerting
 
 When internet connectivity is unavailable:
 
@@ -150,13 +150,13 @@ Buzzer / Siren
 
 Local data can be buffered and synchronized when connectivity returns.
 
-📱 11. Multi-Channel Alerts
+11. Multi-Channel Alerts
 
 Online: Web Dashboard • Mobile App • SMS • Email • Push Notifications
 
 Offline/Local: LoRa • Buzzer • Siren
 
-📸 12. Field Verification
+12. Field Verification
 
 Field teams can submit GPS locations, photos and event reports.
 
@@ -184,11 +184,11 @@ Clement Caleb C - Backend, Database & Cloud
 Mohammed Ihsaan - Data, Testing, Validation & Documentation
 
 🌐 Project Links : 
-🌍 Website - https://flashflood-alert-ai.vercel.app/
+Website - https://flashflood-alert-ai.vercel.app/
 
-📱 Mobile Application - https://earlydetection-of-flashflood.ai.studio
+Mobile Application - https://earlydetection-of-flashflood.ai.studio
 
-💻 GitHub - https://github.com/innovators26/FlashFloodAlert-AI
+GitHub - https://github.com/innovators26/FlashFloodAlert-AI
 
-🎥 Demo Video - https://youtu.be/WmXTZ36OBYo
+Demo Video - https://youtu.be/WmXTZ36OBYo
 
